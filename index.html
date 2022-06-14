@@ -1,33 +1,172 @@
 <!DOCTYPE html>
-<html lang="pt-br>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/style.css">
-    <title>Portfólio - Lucas Ponciano</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="" id="logo">Ponciano Dev</a>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Portfolio - Lucas Ponciano</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+        <script
+            src="https://kit.fontawesome.com/4609d6016a.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <header id="topo">
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <img
+                    src="./assets/img/logo-poncianodev-branco.png"
+                    alt="logo"
+                    class="logo"
+                />
+                <ul>
+                    <li><a class="active" href="#">Início</a></li>
+                    <li><a href="#sobre-mim">Sobre</a></li>
+                    <li><a href="#titulo-projetos">Projetos</a></li>
+                    <li><a href="#skills">Skills</a></li>
 
-            <ul>
-                <li><a href="">Sobre Mim</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Serviços</a></li>
-                <li><a href="">Minhas Skills</a></li>
-                <li><a href="">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
+        <main>
+            <section id="hero-container">
+                <div id="particles-js">
+                    <h1 id="hero-title">
+                        Olá sou <span class="green-span">Lucas Ponciano</span>,
+                        um Desenvolvedor Front-end
+                    </h1>
+                </div>
+            </section>
 
-    </main>
+            <section id="sobre-mim">
+                <div class="card-perfil">
+                    <img src="./assets/img/foto-perfil.jpg" alt="foto lucas" />
+                </div>
 
-    <footer>
+                <div class="texto-perfil">
+                    <h2>Sobre Mim</h2>
+                    <p>
+                        Meu nome é <strong>Lucas Ponciano</strong>, tenho 24 anos e sou um Desenvolvedor Front-end Junior.
+                        Escolhi programação por ser apaixonado por tecnologia, e gostar muito da idéia de liberdade que a profissão traz.
+                        Estou estudando HTML, CSS, JS com a intenção de dominar essas linguagens e conquistar meu objetivo que é a migração de carreira para TI.
+                        Atualmente estudo pela <a href="https://blueedtech.com.br/">Blue EdTech</a>.
+                        <br>
+                    </p> 
 
-    </footer>
-</body>
+                    <button id="cta"><a href="https://wa.me/qr/7VANEGJJVP6YL1" target="_blank">Vamos conversar?</a></button>
+                </div>
+            </section>
+
+            <h2 id="titulo-projetos">Meus Projetos</h2>
+            <section class="card-row">
+                <article class="card">
+                    <img
+                        src="./assets/img/projeto1.png"
+                        alt="projeto pokedex"
+                    />
+                    <h3><a href="https://github.com/poncianodev/pokedex-mvc" target="_blank">Pokedéx</a></h3>
+                    <p>
+                        Este projeto é para fins de estudo, utilizado no Projeto
+                        2, do Módulo 2, no curso Full Stack da Blue EdTech.<br />
+                        Neste projeto nós fizemos uma <strong>Pokedex</strong>,
+                        na onde temos alguns pokemons já cadastrados e também a
+                        possibilidade de cadastrá-los.
+                    </p>
+                </article>
+                <article class="card">
+                    <img
+                        src="./assets/img/projeto2.png"
+                        alt="cardapio el geladon"
+                    />
+                    <h3><a href="https://github.com/poncianodev/cardapio-elgeladon" target="_blank">Paleteria El Geladon</a></h3>
+                    <p>
+                        Neste projeto eu desenvolvi o site de uma paleteria
+                        mexicana chamada <strong>"El Geladon"</strong>. Nele
+                        consumi uma API pública, onde já estavam cadastradas
+                        algumas paletas. Inseri a posilibidade do usuário
+                        cadastrar novas paletas, e deletá-las. Ele também pode
+                        filtrar as paletas através do campo de busca.
+                    </p>
+                </article>
+                <article class="card">
+                    <img src="./assets/img/projeto3.png" alt="jordan shoes" />
+                    <h3><a href="https://github.com/poncianodev/jordanshoes-shop" target="_blank">Loja Jordan Shoes</a></h3>
+                    <p>
+                        Projeto extra apresentado no Módulo 2, da Blue EdTech.
+                        Foi criada uma loja fantasia chamada
+                        <strong>Jordan Shoes</strong>, com a finalidade de
+                        praticar meus estudos em flex-box e responsidade.
+                    </p>
+                    <button></button>
+                </article>
+            </section>
+
+            <h2 id="titulo-skills">Minhas Skills</h2>
+            <section id="skills">
+                <div class="skills">
+                    <div class="skill">
+                      <div class="skill-name">HTML</div>
+                      <div class="skill-bar">
+                        <div class="skill-per" per="80%" style="max-width:80%"></div>
+                      </div>
+                    </div>
+                  
+                    <div class="skill">
+                      <div class="skill-name">CSS</div>
+                      <div class="skill-bar">
+                        <div class="skill-per" per="50%" style="max-width:50%"></div>
+                      </div>
+                    </div>
+                  
+                    <div class="skill">
+                      <div class="skill-name">Javascript</div>
+                      <div class="skill-bar">
+                        <div class="skill-per" per="30%" style="max-width:30%"></div>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-name">Node</div>
+                        <div class="skill-bar">
+                          <div class="skill-per" per="20%" style="max-width:20%"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill">
+                        <div class="skill-name">React</div>
+                        <div class="skill-bar">
+                          <div class="skill-per" per="20%" style="max-width:20%"></div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+
+        <footer>
+            <div id="flex-footer">
+                <p>Desenvolvido por Lucas Ponciano.</a></p>
+        
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/lucas-ponciano/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                    <a href="https://github.com/poncianodev"><i class="fa-brands fa-github fa-lg"></i></a>
+                    <a href="https://www.instagram.com/poncianodev/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                </div>
+            </div>
+
+            <div data-scroll="suave" data-anima="scroll">
+                <a href="#topo">
+                    <div class="topo">
+                        <img src="./assets/img/circle-up.svg" alt="topo da pagina">
+                    </div>
+                </a>
+            </div>
+        </footer>
+
+        <script src="./assets/particles.js"></script>
+        <script src="./assets/app.js"></script>
+        <script src="./assets/script.js"></script>
+    </body>
 </html>
