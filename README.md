@@ -1,8 +1,7 @@
 <img src="https://i.imgur.com/hJ93LMe.png"/>
 
----
 
-# Projeto de Portfólio, desenvolvido com a intenção de expor meus trabalhos e serviços.
+## Projeto de Portfólio, desenvolvido com a intenção de expor meus trabalhos e serviços.
 
 ---
 
@@ -18,13 +17,14 @@
 
 Link do deploy:
 
+<a href="https://poncianodev.github.io/portfolio-poncianodev/">Deploy</a>
 
 ---
 
 ### Thanks for your Visiting!
 
 
-<img src="https://c.tenor.com/7NxjaQGipn4AAAAd/thank-you-thanks.gif" width="200px">
+<img src="https://c.tenor.com/7NxjaQGipn4AAAAd/thank-you-thanks.gif" width="50px">
 
 <br>
 <p> &copy; Developed by <a href="http://https://www.linkedin.com/in/lucas-ponciano/">Lucas Ponciano</a></p>
